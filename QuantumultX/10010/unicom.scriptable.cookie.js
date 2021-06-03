@@ -10,7 +10,7 @@
 
 hostname = m.client.10010.com
 
-^https:/\/\m\.client\.10010\.com\/mobileserviceimportant\/home\/queryUserInfoSeven\?version=.*  url script-request-header https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/unicom.scriptable.cookie.js
+^https:/\/\m\.client\.10010\.com\/mobileserviceimportant\/home\/queryUserInfoSeven\?version=.*  url script-request-header https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/10010/unicom.scriptable.cookie.js
 
 */
 const cookieName = '中国联通 cookie for Scriptable'
