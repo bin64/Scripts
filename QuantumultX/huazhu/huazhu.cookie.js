@@ -2,10 +2,14 @@
 
 华住酒店 App 自动签到，适用于 QX
 
+使用方法：添加 rewrite 后打开华住酒店 App 签到一次，提示获取 cookie 成功后可使用脚本手动签到，若提示重复签到即成功
+
 hostname = newactivity.huazhu.com
 
 ^https\:\/\/newactivity\.huazhu\.com\/v1\/pointStore\/signIn url script-request-header https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/huazhu/huazhu.cookie.js
 
+
+签到脚本：https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/huazhu/huazhu.js
 */
 
 
