@@ -14,7 +14,7 @@ const cookieName = '华住 App cookie'
 const cookieKey = 'cookie_huazhu'
 const fpKey = 'fp_huazhu'
 const cookieVal = $request.headers['Cookie']
-const bodyVal = $request.headers['fp']
+const fpVal = $request.headers['fp']
 
 if (cookieVal){
     $notify(`${cookieName}`, '获取Cookie: 成功', '')
@@ -28,12 +28,12 @@ if (cookieVal){
     console.log(`[${cookieName}] 已抓取到请求，未获取到 cookie`)
 }
 
-if (bodyVal){
-    $notify(`${cookieName}`, '获取 body: 成功', '')
-    console.log(`[${cookieName}] 获取 body: 成功, body: ${bodyVal}`)
-    if ($prefs.setValueForKey(bodyVal, fpKey)) {
-        $notify(`${cookieName}`, '写入 body: 成功', '')
-        console.log(`[${cookieName}] 写入 body 成功: ${bodyVal}`)
+if (fpVal){
+    $notify(`${cookieName}`, '获取 fp: 成功', '')
+    console.log(`[${cookieName}] 获取 fp: 成功, fp: ${fpVal}`)
+    if ($prefs.setValueForKey(fpVal, fpKey)) {
+        $notify(`${cookieName}`, '写入 fp: 成功', '')
+        console.log(`[${cookieName}] 写入 fp 成功: ${fpVal}`)
     }
 }else {
     $notify(`${cookieName}`, '已抓取到请求，未获取到 fp', '')
