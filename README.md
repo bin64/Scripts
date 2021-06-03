@@ -1,2 +1,2 @@
-# Scripts used in Quantumult X
+# Scripts
 Daily used scripts
