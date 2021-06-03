@@ -1,2 +1,2 @@
-# Scripts for Quantumult X
-Daily used scripts in Quantumult X
+# Note
+This script has not been tested.
