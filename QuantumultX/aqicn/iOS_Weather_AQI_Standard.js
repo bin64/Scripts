@@ -3,7 +3,7 @@
 const $ = new Env("aqius");
 $.token = "hackl0us_aqi_token";
 
-const aqicnToken = ''; 此处手动填入 aqicnToken，不再从 hackl0us_aqi_token 获取。
+const aqicnToken = ''; // 此处手动填入 aqicnToken，不再从 hackl0us_aqi_token 获取。
 
 // STEP 2: 参考下方配置片段，在代理工具的配置文件中添加对应的配置。注意：script-path 后应该替换为添加 apicnToken 值后的脚本路径
 /*
