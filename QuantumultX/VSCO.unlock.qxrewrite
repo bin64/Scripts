@@ -1,0 +1,3 @@
+hostname = api.revenuecat.com
+
+^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ url script-response-body https://raw.githubusercontent.com/githubdulong/Script/master/vsco.js
