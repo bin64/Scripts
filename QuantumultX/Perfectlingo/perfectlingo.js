@@ -7,6 +7,6 @@ let obj = JSON.parse(respbody);
 obj.data.force_update = false;
 // $notify('title', 'subTitle', message);
 
-console.log('d');
+// console.log('d');
 
 $done({body: JSON.stringify(obj)});
