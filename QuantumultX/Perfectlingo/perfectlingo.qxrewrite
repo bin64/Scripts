@@ -1,0 +1,3 @@
+hostname = recite.perfectlingo.com
+
+^https?\:\/\/recite\.perfectlingo\.com\/version-token\/app-update\?.* url script-request-header https://github.com/bin64/Scripts/raw/main/QuantumultX/Perfectlingo/perfectlingo.js
