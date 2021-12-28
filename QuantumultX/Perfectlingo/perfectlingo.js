@@ -1,4 +1,4 @@
-var respbody = $response.body;
+var respbody = response.body;
 let obj = JSON.parse(respbody);
 
 //message = obj.data.force_update;
