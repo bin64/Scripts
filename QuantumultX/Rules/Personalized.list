@@ -1,5 +1,4 @@
 # 广告屏蔽
-
 host-suffix, didistatic.com, AdBlock
 host-suffix, zxwcbj.com, AdBlock
 host-suffix, omgup.xiaojukeji.com, AdBlock
@@ -71,3 +70,5 @@ HOST, swallowcrockerybless.com, AdBlock
 # Siri 建议
 HOST, lookup-api.apple.com.edgekey.net, Outside
 HOST, e16991.b.akamaiedge.net, Outside
+host-suffix, getquicker.cn, Outside
+host-suffix, hjd2048.com, Outside
