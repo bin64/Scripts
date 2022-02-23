@@ -1,0 +1,73 @@
+# 广告屏蔽
+
+host-suffix, didistatic.com, AdBlock
+host-suffix, zxwcbj.com, AdBlock
+host-suffix, omgup.xiaojukeji.com, AdBlock
+host-suffix, adtrack.xiaojukeji.com, AdBlock
+host-suffix, ct.xiaojukeji.com, AdBlock
+host-suffix, delta.moe, proxy
+host-suffix, oycslib.xyz, AdBlock
+host-suffix, fnpet.cn, AdBlock
+host, at4.doubanio.com, AdBlock
+host, at3.doubanio.com, AdBlock
+host, oia.zhihu.com, AdBlock
+host, zhihu-web-analytics.zhihu.com, AdBlock
+host, paimgcdn-feed.baidu.com, AdBlock
+host-suffix, toutiao.com, AdBlock
+host-suffix, kuaishou.com, AdBlock
+host-suffix, gdt.qq.com, AdBlock
+host-suffix, us.l.qq.com, AdBlock
+host-suffix, track.sohu.com, AdBlock
+host-suffix, fpb.sohu.com, AdBlock
+host-suffix, qpb.sohu.com, AdBlock
+host-suffix, pv.sohu.com, AdBlock
+host-suffix, nadvideo2.baidu.com, AdBlock
+
+# 中国联通自动认证
+host-suffix, hmrz.wo.cn, AdBlock
+
+# 中国联通 App
+host-suffix, ad.10010.com, AdBlock
+host-suffix, res.mall.10010.cn, AdBlock
+host-suffix, m1.img.10010.com, AdBlock
+host-suffix, ctobsnssdk.com, AdBlock
+host-suffix, pangolin-sdk-toutiao.com, AdBlock
+host-suffix, snssdk.com, AdBlock
+host-suffix, resuac.10010.com, AdBlock
+host-suffix, smartad.10010.com, AdBlock
+host-suffix, analytics.10010.com, AdBlock
+
+# 小米
+host-suffix, tracking.miui.com, AdBlock
+
+# 航旅纵横
+host-suffix, xitong-tech.com, AdBlock
+
+# 高德
+host-suffix, optimus-ads.amap.com, AdBlock
+
+# 飞客
+#host-suffix, ptf.flyertrip.com, AdBlock
+
+# 数据采集
+host-suffix, umeng.com, AdBlock
+host-suffix, miaozhen.com, AdBlock
+host-suffix, doubleclick.net, AdBlock
+
+# QQ 音乐开屏广告
+HOST,adcdn.tencentmusic.com, AdBlock
+HOST,ad.tencentmusic.com, AdBlock
+HOST,adplay.tencentmusic.com, AdBlock
+HOST,adexpo.tencentmusic.com, AdBlock
+HOST,ssp.tencentmusic.com, AdBlock
+HOST,adstats.tencentmusic.com, AdBlock
+
+# aaid 相关
+# HOST, aaid.umeng.com, AdBlock
+
+HOST, swallowcrockerybless.com, AdBlock
+
+# 代理列表
+# Siri 建议
+HOST, lookup-api.apple.com.edgekey.net, Outside
+HOST, e16991.b.akamaiedge.net, Outside
