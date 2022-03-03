@@ -10,6 +10,7 @@ host-suffix, fnpet.cn, AdBlock
 host, at4.doubanio.com, AdBlock
 host, at3.doubanio.com, AdBlock
 host, oia.zhihu.com, AdBlock
+host, www.google-analytics.com, AdBlock
 host, zhihu-web-analytics.zhihu.com, AdBlock
 host, paimgcdn-feed.baidu.com, AdBlock
 host-suffix, toutiao.com, AdBlock
