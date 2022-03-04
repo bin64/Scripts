@@ -1,9 +1,5 @@
 hostname = app.bilibili.com, manga.bilibili.com, ptf.flyertrip.com, recite.perfectlingo.com, app-measurement.com, api-access.pangolin-sdk-toutiao.com, home.mi.com
 
-# > 哔哩哔哩
-^https?+:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject-200
-^https?+:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-200
-
 # 头条
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad.* url reject-200
 
@@ -21,7 +17,6 @@ hostname = app.bilibili.com, manga.bilibili.com, ptf.flyertrip.com, recite.perfe
 ^https\:\/\/m5\.amap\.com\/ws\/feature\/preheat\/.* url reject-200
 
 # 米家
-
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation.* url reject-200
 
 # 搜狐
@@ -59,7 +54,7 @@ hostname = app.bilibili.com, manga.bilibili.com, ptf.flyertrip.com, recite.perfe
 # 斗鱼直播
 ^https?:\/\/rpic\.douyucdn\.cn\/.* url reject-200
 
-# 万词王新版本屏蔽
+# 万词王
 ^https?\:\/\/recite\.perfectlingo\.com\/version-token\/app-update\?.* url reject-200
 ^https?:\/\/recite\.perfectlingo\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Ai-English/2.1.8 (iOS; iPhone13,1; 15.0.1; en-US)$2
 
