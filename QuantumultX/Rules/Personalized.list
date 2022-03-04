@@ -67,6 +67,12 @@ HOST,adstats.tencentmusic.com, AdBlock
 
 HOST, swallowcrockerybless.com, AdBlock
 
+# Google AD Service
+HOST,adservice.google.com, AdBlock
+HOST,adservice.google.co.jp, AdBlock
+HOST,adservice.google.com.hk, AdBlock
+HOST,adservice.google.com.sg, AdBlock
+
 # 代理列表
 # Siri 建议
 HOST, lookup-api.apple.com.edgekey.net, Outside
