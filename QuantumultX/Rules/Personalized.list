@@ -53,6 +53,7 @@ host-suffix, optimus-ads.amap.com, AdBlock
 host-suffix, umeng.com, AdBlock
 host-suffix, miaozhen.com, AdBlock
 host-suffix, doubleclick.net, AdBlock
+host-suffix, firebaselogging-pa.googleapis.com, AdBlock
 
 # QQ 音乐开屏广告
 HOST,adcdn.tencentmusic.com, AdBlock
