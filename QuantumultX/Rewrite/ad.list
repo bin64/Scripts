@@ -1,0 +1,70 @@
+hostname = app.bilibili.com, manga.bilibili.com, ptf.flyertrip.com, recite.perfectlingo.com, app-measurement.com, api-access.pangolin-sdk-toutiao.com, home.mi.com
+
+# > 哔哩哔哩
+^https?+:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject-200
+^https?+:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-200
+
+# 头条
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad.* url reject-200
+
+# 全民 K 歌
+^https\:\/\/node\.kg\.qq\.com\/log\?.* url reject-200
+^https?:\/\/report\.kg\.qq\.com\/report url reject-200
+^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.* url reject-200
+^https?:\/\/sdk\.e\.qq\.com\/xq_event url reject-200
+^https?:\/\/tangram\.e\.qq\.com\/updateSetting url reject-200
+^https?:\/\/adsmind\.gdtimg\.com\/ads_svp_video.* url reject-200
+^https?:\/\/ii\.gdt\.qq\.com\/gdt_inner_view\?.* url reject-200
+^https?:\/\/qzs\.qq\.com\/union\/res\/union_site\/page\/xqRewardVideoEndcard\/xqRewardVideoEndcard\.html\?.* url reject-200
+
+# 高德地图
+^https\:\/\/m5\.amap\.com\/ws\/feature\/preheat\/.* url reject-200
+
+# 米家
+
+^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation.* url reject-200
+
+# 搜狐
+^https?:\/\/js\.sohu\.com\/pv.js.* url reject-200
+
+# 航旅纵横
+^https?:\/\/img\.umetrip\.com\/fs.* url reject-200
+
+# 联通营业厅 APP
+^https?:\/\/img\.client\.10010\.com\/ad.* url reject-200
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/choiceFloorAd url reject-200
+^https?:\/\/m\.client\.10010\.com\/finderInterface\/wealthPageAd url reject-200
+^https?:\/\/m\.client\.10010\.com\/finderInterface\/xinlangMod url reject-200
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getHomePageAd url reject-200
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customerService\/getMynearHallActivity\.do.* url reject-200
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getTodayCommendAd url reject-200
+^https?:\/\/m\.client\.10010\.com\/producGameApp url reject-200
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/indexExpressNewsAndRecommend\.htm url reject-200
+^https?:\/\/act\.10010\.com\/SigninApp\/floorData\/getIntegralMore url reject-200
+
+# flyert
+^https?:\/\/ptf\.flyertrip\.com\/common.* url reject-200
+
+# 隐私
+^https?:\/\/aid\.m\.taobao\.com\/v1\/getcaid url reject-200
+
+# 华住会
+^https?:\/\/hud\.huazhu\.com\/web\/trace\.gif url reject-200
+
+# 知乎
+^https?:\/\/www\.zhihu\.com\/api\/v3\/account\/api.* url reject-200
+^https?:\/\/static\.zhihu\.com\/heifetz\/main\.signflow.*\.js url reject-200
+^https?:\/\/static\.zhihu\.com\/heifetz\/*.signflow.*\.css url reject-200
+
+# 斗鱼直播
+^https?:\/\/rpic\.douyucdn\.cn\/.* url reject-200
+
+# 万词王新版本屏蔽
+^https?\:\/\/recite\.perfectlingo\.com\/version-token\/app-update\?.* url reject-200
+^https?:\/\/recite\.perfectlingo\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Ai-English/2.1.8 (iOS; iPhone13,1; 15.0.1; en-US)$2
+
+# 图图记账 Pro
+https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/tutujizhang.js
+
+#  app-measurement 
+^https?:\/\/app-measurement\.com\/a.* url reject-200
