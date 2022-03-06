@@ -51,6 +51,9 @@ host-suffix, optimus-ads.amap.com, AdBlock
 
 # 数据采集
 host-suffix, umeng.com, AdBlock
+HOST, ulogs.umengcloud.com, AdBlock
+HOST, app-measurement.com, AdBlock
+HOST, ulogs.firebaselogging-pa.googleapis.com, AdBlock
 host-suffix, miaozhen.com, AdBlock
 host-suffix, doubleclick.net, AdBlock
 host-suffix, firebaselogging-pa.googleapis.com, AdBlock
