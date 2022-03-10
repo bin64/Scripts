@@ -67,7 +67,8 @@ HOST,ssp.tencentmusic.com, AdBlock
 HOST,adstats.tencentmusic.com, AdBlock
 
 # aaid 相关
-# HOST, aaid.umeng.com, AdBlock
+HOST, aaid.umeng.com, AdBlock
+HOST, aaid.uyunad.com, AdBlock
 
 HOST, swallowcrockerybless.com, AdBlock
 
