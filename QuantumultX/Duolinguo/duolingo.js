@@ -22,8 +22,8 @@ info_modify.trackingProperties.premium_product_id = 'com.duolingo.DuolingoMobile
 info_modify.trackingProperties.premium_expected_expiration = 7960347962000;
 info_modify.trackingProperties.premium_is_renewing = false;
 info_modify.shopItems = [{purchaseDate:1647082573,subscriptionInfo:{renewing:false,isInBillingRetryPeriod:false,renewer:"APPLE",isFreeTrialPeriod:true,tier:"one_month",productId:"com.duolingo.DuolingoMobile.subscription.Premium.OneMonth.2021Q4FTM7D14D.Trial7.13",expectedExpiration:7960347962},purchasePrice:1299,id:"premium_subscription"},{purchaseDate:1647082908,id:"streak_repair",purchasePrice:0}];
-    info_modify.plusStatus = "PLUS";
-    info_modify.subscriptionConfigs = [{vendorPurchaseId:"260001098115570",isInBillingRetryPeriod:false,pauseStart:7960347962,pauseEnd:null,productId:"com.duolingo.DuolingoMobile.subscription.Premium.OneMonth.2021Q4FTM7D14D.Trial7.13"}];
+info_modify.plusStatus = "PLUS";
+info_modify.subscriptionConfigs = [{vendorPurchaseId:"260001098115570",isInBillingRetryPeriod:false,pauseStart:7960347962,pauseEnd:null,productId:"com.duolingo.DuolingoMobile.subscription.Premium.OneMonth.2021Q4FTM7D14D.Trial7.13"}];
 var info_modified = JSON.stringify(info_modify).replace(/\\"/g, '\\"')
 obj.responses[0].body = info_modified;
 $done({body: JSON.stringify(obj)});
