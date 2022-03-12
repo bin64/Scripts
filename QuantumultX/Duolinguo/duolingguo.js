@@ -1,7 +1,7 @@
 /***********************************
 hostname = ios-api-2.duolingo.cn
 
-
+https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/batch url script-response-body https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/Duolinguo/duolinguo.js
 
 
 ***********************************/
