@@ -78,6 +78,9 @@ HOST,adservice.google.co.jp, AdBlock
 HOST,adservice.google.com.hk, AdBlock
 HOST,adservice.google.com.sg, AdBlock
 
+# 下厨房
+HOST, track.xiachufang.com, AdBlock
+
 # 代理列表
 # Siri 建议
 HOST, lookup-api.apple.com.edgekey.net, Outside
