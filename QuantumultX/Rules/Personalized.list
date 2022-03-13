@@ -87,3 +87,7 @@ HOST, lookup-api.apple.com.edgekey.net, Outside
 HOST, e16991.b.akamaiedge.net, Outside
 host-suffix, getquicker.cn, Outside
 host-suffix, hjd2048.com, Outside
+
+
+# 有道词典
+HOST, impservice.youdao.com, AdBlock
