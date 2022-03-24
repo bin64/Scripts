@@ -55,8 +55,8 @@ hostname = app.bilibili.com, manga.bilibili.com, ptf.flyertrip.com, recite.perfe
 ^https?:\/\/rpic\.douyucdn\.cn\/.* url reject-200
 
 # 万词王
-^https?\:\/\/recite\.perfectlingo\.com\/version-token\/app-update\?.* url reject-200
-^https?:\/\/recite\.perfectlingo\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Ai-English/2.1.8 (iOS; iPhone13,1; 15.0.1; en-US)$2
+#^https?\:\/\/recite\.perfectlingo\.com\/version-token\/app-update\?.* url reject-200
+#^https?:\/\/recite\.perfectlingo\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Ai-English/2.1.8 (iOS; iPhone13,1; 15.0.1; en-US)$2
 
 # 图图记账 Pro
 https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/tutujizhang.js
