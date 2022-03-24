@@ -1,5 +1,5 @@
 hostname = recite.perfectlingo.com
 
-^https?\:\/\/recite\.perfectlingo\.com\/version-token\/app-update\?.* url script-response-body https://github.com/bin64/Scripts/raw/main/QuantumultX/Perfectlingo/perfectlingo.js
+https://recite.perfectlingo.com/api/equity/userequity/v1/get-user-equity url script-response-body https://github.com/bin64/Scripts/raw/main/QuantumultX/Perfectlingo/perfectlingo.js
 
 ^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/content-recommend\/v1\/get-by-uid url reject-200
