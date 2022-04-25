@@ -95,7 +95,3 @@ HOST, wow.youdao.com, AdBlock
 # sudoku
 HOST, ads.inmobi.com, AdBlock
 host-suffix, amazon-adsystem.com, AdBlock
-
-# DDMC
-
-HOST, trackercollect.ddxq.mobi, AdBlock
