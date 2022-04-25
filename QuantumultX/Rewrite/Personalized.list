@@ -64,5 +64,3 @@ https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-respo
 #  app-measurement 
 ^https?:\/\/app-measurement\.com\/a.* url reject-200
 
-# DDMC
-https://trackercollect.ddxq.mobi url reject-200
