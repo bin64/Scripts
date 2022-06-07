@@ -22,6 +22,7 @@ host-suffix, fpb.sohu.com, AdBlock
 host-suffix, qpb.sohu.com, AdBlock
 host-suffix, pv.sohu.com, AdBlock
 host-suffix, nadvideo2.baidu.com, AdBlock
+host-suffix, pglstatp-toutiao.com, AdBlock
 
 # 中国联通自动认证
 host-suffix, hmrz.wo.cn, AdBlock
