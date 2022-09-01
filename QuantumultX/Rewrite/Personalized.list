@@ -26,16 +26,16 @@ hostname = app.bilibili.com, manga.bilibili.com, ptf.flyertrip.com, recite.perfe
 ^https?:\/\/img\.umetrip\.com\/fs.* url reject-200
 
 # 联通营业厅 APP
-^https?:\/\/img\.client\.10010\.com\/ad.* url reject-200
-^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/choiceFloorAd url reject-200
-^https?:\/\/m\.client\.10010\.com\/finderInterface\/wealthPageAd url reject-200
-^https?:\/\/m\.client\.10010\.com\/finderInterface\/xinlangMod url reject-200
-^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getHomePageAd url reject-200
-^https?:\/\/m\.client\.10010\.com\/mobileService\/customerService\/getMynearHallActivity\.do.* url reject-200
-^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getTodayCommendAd url reject-200
-^https?:\/\/m\.client\.10010\.com\/producGameApp url reject-200
-^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/indexExpressNewsAndRecommend\.htm url reject-200
-^https?:\/\/act\.10010\.com\/SigninApp\/floorData\/getIntegralMore url reject-200
+#^https?:\/\/img\.client\.10010\.com\/ad.* url reject-200
+#^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/choiceFloorAd url reject-200
+#^https?:\/\/m\.client\.10010\.com\/finderInterface\/wealthPageAd url reject-200
+#^https?:\/\/m\.client\.10010\.com\/finderInterface\/xinlangMod url reject-200
+#^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getHomePageAd url reject-200
+#^https?:\/\/m\.client\.10010\.com\/mobileService\/customerService\/getMynearHallActivity\.do.* url reject-200
+#^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getTodayCommendAd url reject-200
+#^https?:\/\/m\.client\.10010\.com\/producGameApp url reject-200
+#^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/indexExpressNewsAndRecommend\.htm url reject-200
+#^https?:\/\/act\.10010\.com\/SigninApp\/floorData\/getIntegralMore url reject-200
 
 # flyert
 ^https?:\/\/ptf\.flyertrip\.com\/common.* url reject-200
