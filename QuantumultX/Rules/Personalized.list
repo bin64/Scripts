@@ -28,11 +28,11 @@ host-suffix, pglstatp-toutiao.com, AdBlock
 host-suffix, hmrz.wo.cn, AdBlock
 
 # 中国联通 App
-host-suffix, ad.10010.com, AdBlock
-host-suffix, res.mall.10010.cn, AdBlock
-host-suffix, resuac.10010.com, AdBlock
-host-suffix, smartad.10010.com, AdBlock
-host-suffix, analytics.10010.com, AdBlock
+#host-suffix, ad.10010.com, AdBlock
+#host-suffix, res.mall.10010.cn, AdBlock
+#host-suffix, resuac.10010.com, AdBlock
+#host-suffix, smartad.10010.com, AdBlock
+#host-suffix, analytics.10010.com, AdBlock
 
 host-suffix, ctobsnssdk.com, AdBlock
 
