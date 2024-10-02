@@ -5,9 +5,9 @@
 #!openUrl = https://github.com/bin64/Scripts/Loon/vvebo
 
 [Script]
-http-request ^https:\/\/api\.weibo\.cn\/2\/users\/show\? script-path = https://raw.githubusercontent.com/bin64/Scripts/main/Loon/vvebo/vvebo.js tag = 匹配 users show 规则
-http-request ^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\? script-path = https://raw.githubusercontent.com/bin64/Scripts/main/Loon/vvebo/vvebo.js tag = 匹配 user_timeline 规则
-http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\? script-path = https://raw.githubusercontent.com/bin64/Scripts/main/Loon/vvebo/vvebo.js requires-body=true tag = 匹配 status tab 规则
+http-request ^https:\/\/api\.weibo\.cn\/2\/users\/show\? script-path = https://raw.githubusercontent.com/bin64/Scripts/main/Loon/vvebo/vvebo.js, tag = 匹配 users show 规则
+http-request ^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\? script-path = https://raw.githubusercontent.com/bin64/Scripts/main/Loon/vvebo/vvebo.js, tag = 匹配 user_timeline 规则
+http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\? script-path = https://raw.githubusercontent.com/bin64/Scripts/main/Loon/vvebo/vvebo.js, requires-body=true, tag = 匹配 status tab 规则
 
 [MITM]
 hostname = %APPEND% api.weibo.cn
